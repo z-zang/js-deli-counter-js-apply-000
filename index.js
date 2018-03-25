@@ -20,8 +20,8 @@ function currentLine(){
     return "The line is currently empty.";
   } 
   else {
-    var name = x[0];
-    x.splice(0, 1);
+    var name = line[0];
+    line.splice(0, 1);
     return "Currently serving " + name + ".";
   
   // for ()
