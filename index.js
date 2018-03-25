@@ -8,7 +8,9 @@ function takeANumber(line, name){
 }
 
 function nowServing(){
-  
+  if (line.length == 0){
+    return
+  }
   console.log(line[0]);
   line.shift();
 }
