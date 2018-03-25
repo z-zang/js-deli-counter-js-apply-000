@@ -15,6 +15,8 @@ function nowServing(line){
   }
 }
 
+var katzDeliLine = [];
+
 function currentLine(){
   
 }
