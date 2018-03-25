@@ -1,12 +1,13 @@
 var katzDeli = [];
 
 function takeANumber(katzDeliLine, name){
-  line.push(name);
+  katzDeliLine.push(name);
   
   console.log("Welcome, " + name + ". You are number " +line.length +" in line"); 
 
 }
 
 function nowServing(){
-  line.shift(name)
+  console.log(line[0])
+  line.shift()
 }
