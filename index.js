@@ -8,5 +8,5 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(){
-  
+  line.shift(name)
 }
