@@ -14,3 +14,5 @@ function nowServing(line){
   return "Currently serving " + line.shift() + ".";
   }
 }
+
+function currentLine()
