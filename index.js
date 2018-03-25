@@ -20,12 +20,12 @@ function currentLine(line){
     return "The line is currently empty.";
   } 
   
-  var serving []; 
+  var serving = []; 
   
-  for (var i=0; i<line.length; i++) {
-    lineNamesandNumbers.push(i+1 + ". "+ line[i]);
+  for (var i = 0 ; i < line.length; i++) {
+    serving.push(i+1 + ". "+ line[i]);
   }
-  return "The line is currently: " + lineNamesandNumbers.join(', ');
+  return "The line is currently: " + serving.join(', ');
 }
 
 
