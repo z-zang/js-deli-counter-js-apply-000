@@ -9,8 +9,9 @@ function takeANumber(line, name){
 
 function nowServing(){
   if (line.length == 0){
-    return
-  }
+    return "There is nobody waiting to be served!"
+  } else {
   console.log(line[0]);
   line.shift();
+  }
 }
