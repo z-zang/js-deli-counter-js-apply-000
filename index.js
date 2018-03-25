@@ -8,6 +8,7 @@ function takeANumber(line, name){
 }
 
 function nowServing(){
+  
   console.log(line[0]);
-  line.shift()
+  line.shift();
 }
