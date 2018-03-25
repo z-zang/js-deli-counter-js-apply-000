@@ -20,7 +20,8 @@ function currentLine(line){
     return "The line is currently empty.";
   } 
   
-  var 
+  var serving []; 
+  
   for (var i=0; i<line.length; i++) {
     lineNamesandNumbers.push(i+1 + ". "+ line[i]);
   }
